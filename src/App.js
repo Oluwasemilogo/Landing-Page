@@ -1,7 +1,20 @@
+import React from "react";
+import Nav from "./Nav";
+import Header from "./Header";
+import Features from "./Features";
+import Tabs from "./Tabs";
+import Download from "./Download";
+
+//import "./App.css";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello Oluwasemilogo</h1>
+      <Nav />
+      <Header />
+      <Features />
+      <Tabs />
+      <Download />
     </div>
   );
 }

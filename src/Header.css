@@ -1,0 +1,49 @@
+.header_component {
+  padding: 0px 10%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.headertxt {
+  color: hsl(229, 31%, 21%);
+}
+.text_part {
+  width: 400px;
+}
+.app_description {
+  color: hsl(229, 8%, 60%);
+  font-weight: 400;
+}
+.geton_chrome {
+  margin-right: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: hsl(231, 69%, 60%);
+  border: none;
+  border-radius: 5px;
+}
+.geton_chrome:hover {
+  background-color: #fff;
+  color: hsl(231, 69%, 60%);
+  border: 2px solid hsl(231, 69%, 60%);
+}
+.geton_firefox {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.geton_firefox:hover {
+  color: #fff;
+  background-color: hsl(231, 69%, 60%);
+  border: 2px solid hsl(231, 69%, 60%);
+}
+.special_div {
+  width: 40%;
+  position: absolute;
+  top: 250px;
+  right: 0;
+  height: 400px;
+  background-color: hsl(231, 69%, 60%);
+  border-bottom-left-radius: 40%;
+  z-index: -1;
+}

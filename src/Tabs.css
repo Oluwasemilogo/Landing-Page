@@ -1,0 +1,35 @@
+.tabs_children {
+  display: flex;
+  justify-content: center;
+}
+.tabs_children p {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tabs_children p:hover {
+  color: hsl(0, 94%, 66%);
+}
+.color_blue {
+  width: 35%;
+  position: absolute;
+  top: 1000px;
+  left: 100px;
+  height: 370px;
+  background-color: hsl(231, 69%, 60%);
+  border-bottom-right-radius: 40%;
+  z-index: -1;
+}
+.hoverP {
+  padding: 20px 30px;
+  border-bottom: 3px solid hsl(0, 94%, 66%);
+  color: hsl(240, 1%, 35%);
+}
+.tabs_children .generalP {
+  padding: 20px 30px;
+  border-bottom: 1px solid hsl(240, 100%, 94%);
+  color: hsl(229, 8%, 60%);
+}
+.tabs_content {
+  margin-top: 50px;
+}
