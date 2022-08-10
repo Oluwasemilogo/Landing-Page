@@ -33,3 +33,24 @@
 .tabs_content {
   margin-top: 50px;
 }
+@media screen and (max-width: 600px) {
+  .tabs_children {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabs_children p {
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+  }
+  .color_blue {
+    width: 70%;
+    position: absolute;
+    top: 1400px;
+    left: 0;
+    height: 240px;
+    background-color: hsl(231, 69%, 60%);
+    border-bottom-right-radius: 40%;
+    z-index: -1;
+  }
+}

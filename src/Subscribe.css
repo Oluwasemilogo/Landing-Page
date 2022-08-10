@@ -1,0 +1,63 @@
+.subscribe {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.subscribe_contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+}
+.subscribe_contents h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.subscribe_contents p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.subscribe_contents div {
+  display: flex;
+  gap: 15px;
+}
+.subscribe_contents div input {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+}
+.subscribe_contents div button {
+  border-radius: 5px;
+  font-weight: 500;
+  color: #fff;
+  background-color: hsl(0, 94%, 66%);
+  border: none;
+  padding: 15px 20px;
+  max-width: 450px;
+  width: 40%;
+}
+.subscribe_contents div button:hover {
+  background-color: #fff;
+  color: hsl(0, 94%, 66%);
+  border: 2px solid hsl(0, 94%, 66%);
+}
+@media screen and (max-width: 600px) {
+  .subscribe_contents {
+    width: 100%;
+  }
+  .subscribe_contents div {
+    flex-direction: column;
+  }
+  .subscribe_contents div input {
+    width: 100%;
+  }
+  .subscribe_contents div button {
+    width: 100%;
+  }
+}

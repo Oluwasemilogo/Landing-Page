@@ -6,6 +6,7 @@
 }
 .headertxt {
   color: hsl(229, 31%, 21%);
+  font-size: 2.5rem;
 }
 .text_part {
   width: 400px;
@@ -41,9 +42,41 @@
   width: 40%;
   position: absolute;
   top: 250px;
-  right: 0;
+  right: 70px;
   height: 400px;
   background-color: hsl(231, 69%, 60%);
   border-bottom-left-radius: 40%;
   z-index: -1;
+}
+@media screen and (max-width: 600px) {
+  .special_div {
+    width: 60%;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    height: 200px;
+    background-color: hsl(231, 69%, 60%);
+    border-bottom-left-radius: 40%;
+    z-index: -1;
+  }
+  .header_component {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .text_part {
+    text-align: center;
+    width: 100%;
+  }
+  .headertxt {
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 2.3rem;
+    color: hsl(229, 31%, 21%);
+  }
+  .about_img img {
+    object-fit: contain;
+    width: 400px;
+  }
 }

@@ -1,0 +1,34 @@
+.Boxcontent {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+.box1 {
+  align-self: flex-start;
+}
+.box2 {
+  align-self: center;
+}
+.box3 {
+  align-self: flex-end;
+}
+@media screen and (max-width: 600px) {
+  .Boxcontent {
+    margin-top: 50px;
+    height: max-content;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,44 @@
+.Box {
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 7px 5px rgba(141, 141, 141, 0.4);
+}
+.Box button {
+  /* box-shadow: 0px 2px 3px grey; */
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 12px 25px;
+  border: none;
+  background-color: hsl(231, 69%, 60%);
+  color: #fff;
+}
+.Box button:hover {
+  background-color: #fff;
+  color: hsl(231, 69%, 60%);
+  border: 2px solid hsl(231, 69%, 60%);
+}
+.Box h3 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: hsl(229, 31%, 21%);
+}
+.Box p {
+  margin-top: 10px;
+  font-weight: 400;
+  color: hsl(229, 8%, 60%);
+}
+@media screen and (max-width: 600px) {
+  .Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
