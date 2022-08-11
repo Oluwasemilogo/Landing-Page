@@ -3,7 +3,8 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  width: 900px;
+  height: 50px;
+  width: 50%;
   border-top: 1px solid hsl(0, 0%, 86%);
 }
 .question p {
@@ -19,7 +20,7 @@
   width: 18px;
 }
 .answer {
-  width: 900px;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;

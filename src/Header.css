@@ -7,13 +7,16 @@
 .headertxt {
   color: hsl(229, 31%, 21%);
   font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 .text_part {
   width: 400px;
+  margin-top: 40px;
 }
 .app_description {
   color: hsl(229, 8%, 60%);
   font-weight: 400;
+  margin-bottom: 20px;
 }
 .geton_chrome {
   margin-right: 20px;

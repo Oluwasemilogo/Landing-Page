@@ -5,7 +5,7 @@ import arrowdown from "./SVG/icon-arrow.svg";
 function Faq({ question, answer }) {
   const [showanswer, setshowanswer] = useState(false);
   return (
-    <div>
+    <>
       <div className="question">
         <p onClick={() => setshowanswer(true)}>{question}</p>
         {showanswer ? (
@@ -24,7 +24,7 @@ function Faq({ question, answer }) {
           <p>{answer}</p>
         </div>
       )}
-    </div>
+    </>
   );
 }
 
